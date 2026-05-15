@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd ayamtiren && npm install && npm run build",
+  "outputDirectory": "ayamtiren/.next",
+  "installCommand": "cd ayamtiren && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "ayamtiren"
+}
