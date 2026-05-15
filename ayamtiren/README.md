@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚡ RouterAI — LLM API Gateway & Monetization Platform
 
-## Getting Started
+A smart LLM API router that automatically selects the cheapest/fastest/best model, handles fallback chains across providers, and gives you a full dashboard for usage analytics and credit management.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🔀 **Cost-Aware Routing** | Picks cheapest model by default; `prefer: "quality"` or `"speed"` for others |
+| ⛓️ **Fallback Chain** | Auto-retries with next provider if one fails or rate-limits |
+| 🔑 **API Key Management** | Create/revoke keys with rate limits & monthly quotas |
+| 💰 **Credit Billing** | Top up credits, pay per token consumed |
+| 📊 **Usage Analytics** | Charts for daily requests, tokens, cost per model |
+| 🛡️ **OpenAI-Compatible API** | Drop-in replacement — just change the base URL |
+
+---
+
+## 🚀 Quick Start
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Set up environment variables
+
+```bash
+cp .env.example .env.local
+# Fill in DATABASE_URL, NEXTAUTH_SECRET, and LLM provider keys
+```
+
+### 3. Set up the database
+
+```bash
+npm run db:generate   # generate Prisma client
+npm run db:push       # push schema to DB (dev)
+# or for production:
+npm run db:migrate
+```
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📡 API Reference
 
-## Learn More
+### `POST /api/v1/chat`
 
-To learn more about Next.js, take a look at the following resources:
+Send chat completion requests through the router.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Headers:**
+```
+Authorization: Bearer sk-rt-your-key
+Content-Type: application/json
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Body:**
+```json
+{
+  "messages": [
+    { "role": "user", "content": "Hello!" }
+  ],
+  "model": "gpt-4o-mini",     // optional — router picks if omitted
+  "max_tokens": 1024,          // optional
+  "temperature": 0.7,          // optional
+  "prefer": "cost"             // "cost" | "speed" | "quality"
+}
+```
 
-## Deploy on Vercel
+**Response:**
+```json
+{
+  "id": "chatcmpl-...",
+  "model": "gpt-4o-mini",
+  "provider": "openai",
+  "choices": [{ "message": { "role": "assistant", "content": "..." } }],
+  "usage": { "prompt_tokens": 10, "completion_tokens": 50, "total_tokens": 60 },
+  "cost": 0.0000097,
+  "latency_ms": 842
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🏗️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Database**: PostgreSQL + Prisma ORM
+- **Auth**: NextAuth.js (credentials)
+- **UI**: Tailwind CSS + Recharts
+- **Validation**: Zod
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── (auth)/login/         # Login page
+│   ├── (auth)/register/      # Register page
+│   ├── api/
+│   │   ├── auth/             # NextAuth + register
+│   │   ├── v1/chat/          # LLM Router endpoint
+│   │   ├── keys/             # API key CRUD
+│   │   ├── credits/          # Balance & top-up
+│   │   └── usage/            # Usage analytics
+│   ├── dashboard/            # Dashboard pages
+│   └── page.tsx              # Landing page
+├── lib/
+│   ├── auth.ts               # NextAuth config
+│   ├── prisma.ts             # Prisma client
+│   ├── router.ts             # LLM routing logic
+│   ├── models.ts             # Model definitions & costs
+│   └── apikey.ts             # Key generation & validation
+└── types/index.ts            # TypeScript types
+```
+
+---
+
+## 🌍 Deploy
+
+### Vercel (recommended)
+
+```bash
+vercel deploy
+```
+
+Set environment variables in Vercel dashboard. Use [Supabase](https://supabase.com) or [Neon](https://neon.tech) for the database.
+
+### VPS / Docker
+
+```bash
+npm run build
+npm start
+```
