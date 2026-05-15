@@ -1,0 +1,503 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 6236 >>
+stream
+q
+0.04 0.39 0.13 rg
+0 732 595 110 re
+f
+Q
+q
+0.13 0.55 0.13 rg
+0 724 595 8 re
+f
+Q
+BT
+1 1 1 rg
+/F1 26 Tf
+50 787 Td
+(PLANTIX) Tj
+ET
+BT
+1 1 1 rg
+/F2 13 Tf
+50 764 Td
+(Penerapan Artificial Intelligence \(AI\) dalam Bidang Pertanian) Tj
+ET
+BT
+0.85 0.94 0.85 rg
+/F2 9 Tf
+50 745 Td
+(Dikembangkan oleh PEAT GmbH, Jerman  |  Digunakan di Indonesia & Seluruh Dunia) Tj
+ET
+q
+0.85 0.94 0.85 rg
+50 687 495 28 re
+f
+Q
+BT
+0.04 0.39 0.13 rg
+/F1 10 Tf
+58 697 Td
+(Aplikasi deteksi penyakit tanaman berbasis AI yang telah digunakan lebih dari 25 juta petani di seluruh dunia) Tj
+ET
+q
+0.04 0.39 0.13 rg
+50 640 495 20 re
+f
+Q
+BT
+1 1 1 rg
+/F1 11 Tf
+56 646 Td
+(1.  Apa AI-nya?) Tj
+ET
+BT
+0 0 0 rg
+/F1 10 Tf
+56 612 Td
+(Jenis AI  :  Image Recognition + Deep Learning \(Convolutional Neural Network / CNN\)) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 10 Tf
+56 596 Td
+(Pengembang  :  PEAT GmbH, Berlin, Jerman \(didirikan 2015\)) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 10 Tf
+56 580 Td
+(Platform  :  Aplikasi mobile \(Android & iOS\) + API untuk institusi) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 10 Tf
+56 564 Td
+(Pengguna  :  Lebih dari 25 juta pengguna aktif di seluruh dunia) Tj
+ET
+q
+0.04 0.39 0.13 rg
+50 548 495 20 re
+f
+Q
+BT
+1 1 1 rg
+/F1 11 Tf
+56 554 Td
+(2.  Bagaimana Cara Kerjanya?) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 521 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 518 Td
+(Petani memfoto daun atau bagian tanaman yang terlihat sakit menggunakan kamera smartphone.) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 505 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 502 Td
+(Foto dikirim ke server Plantix dan dianalisis menggunakan model Deep Learning \(CNN\).) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 489 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 486 Td
+(Model AI yang telah dilatih dari jutaan gambar penyakit tanaman mengidentifikasi pola visual) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 10 Tf
+66 470 Td
+(   pada foto \(warna, tekstur, bintik, bentuk kerusakan\) untuk mengenali jenis penyakit atau hama.) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 457 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 454 Td
+(Dalam hitungan detik, aplikasi menampilkan: \(a\) Diagnosis penyakit/hama/defisiensi nutrisi,) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 10 Tf
+66 438 Td
+(   \(b\) Penyebab dan penjelasan ilmiah, \(c\) Rekomendasi penanganan & produk yang tepat.) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 425 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 422 Td
+(Tersedia fitur komunitas: petani dapat berbagi pengalaman dan bertanya ke sesama pengguna.) Tj
+ET
+q
+0.04 0.39 0.13 rg
+50 398 495 20 re
+f
+Q
+BT
+1 1 1 rg
+/F1 11 Tf
+56 404 Td
+(3.  Manfaat / Kegunaan) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 371 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 368 Td
+(Mendeteksi lebih dari 400 jenis penyakit dari 30+ jenis tanaman \(padi, jagung, cabai, dll.\)) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 355 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 352 Td
+(Tersedia gratis di smartphone -- sangat accessible untuk petani kecil di pelosok daerah) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 339 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 336 Td
+(Mendeteksi penyakit lebih awal sehingga petani bisa bertindak sebelum terjadi gagal panen) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 323 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 320 Td
+(Mengurangi ketergantungan pada penyuluh pertanian yang jumlahnya sangat terbatas) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 307 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 304 Td
+(Memberikan rekomendasi pestisida/fungisida yang tepat sasaran, mengurangi pemakaian berlebih) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 291 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 288 Td
+(Mendukung pertanian berkelanjutan dengan meminimalkan penggunaan kimia yang tidak perlu) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 275 4 4 re
+f
+Q
+BT
+0 0 0 rg
+/F2 10 Tf
+66 272 Td
+(Tersedia dalam banyak bahasa, termasuk Bahasa Indonesia) Tj
+ET
+q
+0.04 0.39 0.13 rg
+50 248 495 20 re
+f
+Q
+BT
+1 1 1 rg
+/F1 11 Tf
+56 254 Td
+(4.  Cost vs Benefit) Tj
+ET
+q
+0.13 0.55 0.13 rg
+56 212 478 18 re
+f
+Q
+BT
+1 1 1 rg
+/F1 10 Tf
+60 217 Td
+(Aspek) Tj
+ET
+BT
+1 1 1 rg
+/F1 10 Tf
+180 217 Td
+(Keterangan) Tj
+ET
+BT
+1 1 1 rg
+/F1 10 Tf
+370 217 Td
+(Nilai / Estimasi) Tj
+ET
+q
+1 1 1 rg
+56 194 478 16 re
+f
+Q
+BT
+0.04 0.39 0.13 rg
+/F1 9 Tf
+60 198 Td
+(COST) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 198 Td
+(Versi dasar untuk petani: GRATIS) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 198 Td
+(Rp 0 untuk petani individu) Tj
+ET
+q
+0.95 0.95 0.95 rg
+56 178 478 16 re
+f
+Q
+BT
+0.04 0.39 0.13 rg
+/F1 9 Tf
+60 182 Td
+(COST) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 182 Td
+(Versi B2B \(API & analytics\) untuk perusahaan/pemerintah) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 182 Td
+(Berbayar \(subscription enterprise\)) Tj
+ET
+q
+1 1 1 rg
+56 162 478 16 re
+f
+Q
+BT
+0.6 0.2 0.0 rg
+/F1 9 Tf
+60 166 Td
+(BENEFIT) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 166 Td
+(Deteksi dini penyakit mencegah kerugian gagal panen) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 166 Td
+(Kerugian gagal panen dapat mencapai 20-100% hasil) Tj
+ET
+q
+0.95 0.95 0.95 rg
+56 146 478 16 re
+f
+Q
+BT
+0.6 0.2 0.0 rg
+/F1 9 Tf
+60 150 Td
+(BENEFIT) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 150 Td
+(Penggunaan pestisida lebih tepat & hemat) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 150 Td
+(Potensi hemat biaya input 15-30%) Tj
+ET
+q
+1 1 1 rg
+56 130 478 16 re
+f
+Q
+BT
+0.6 0.2 0.0 rg
+/F1 9 Tf
+60 134 Td
+(BENEFIT) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 134 Td
+(Akses pengetahuan pertanian tanpa konsultan) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 134 Td
+(Menggantikan konsultasi senilai Rp 200-500rb/kunjungan) Tj
+ET
+q
+0.95 0.95 0.95 rg
+56 114 478 16 re
+f
+Q
+BT
+0.0 0.2 0.6 rg
+/F1 9 Tf
+60 118 Td
+(ROI) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+180 118 Td
+(Return on Investment untuk petani individu) Tj
+ET
+BT
+0.3 0.3 0.3 rg
+/F2 9 Tf
+370 118 Td
+(Sangat tinggi \(modal = smartphone saja\)) Tj
+ET
+q
+0.85 0.94 0.85 rg
+50 42 495 55 re
+f
+Q
+q
+0.04 0.39 0.13 rg
+50 42 4 55 re
+f
+Q
+BT
+0.04 0.39 0.13 rg
+/F1 11 Tf
+62 84 Td
+(Kesimpulan) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+62 70 Td
+(Plantix adalah solusi AI pertanian paling demokratis karena dapat diakses gratis oleh siapapun) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+62 58 Td
+(hanya dengan smartphone. Dengan lebih dari 25 juta pengguna, Plantix membuktikan bahwa AI) Tj
+ET
+BT
+0 0 0 rg
+/F2 9 Tf
+62 46 Td
+(tidak harus mahal untuk memberi dampak nyata bagi petani kecil di Indonesia dan dunia.) Tj
+ET
+q
+0.04 0.39 0.13 rg
+0 0 595 30 re
+f
+Q
+BT
+1 1 1 rg
+/F2 8 Tf
+50 11 Td
+(Sumber: ResearchGate \(Plantix App: A Success Story of AI in Plant Protection\) | CGIAR Big Data in Agriculture) Tj
+ET
+BT
+0.85 0.94 0.85 rg
+/F2 8 Tf
+485 11 Td
+(plantix.net  |  peat.ag) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 595 842]
+   /Contents 6 0 R
+   /Resources << /Font << /F1 3 0 R /F2 5 0 R >> >>
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000006608 00000 n 
+0000000223 00000 n 
+0000000320 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6753
+%%EOF
